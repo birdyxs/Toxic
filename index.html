@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Toxic</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html><head><title>toxic</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"> </script>
+<link href="//solrainha.github.io/honeybee/honeybee.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"><link href="//solrainha.github.io/saturnicons/saturnicons.css" rel="stylesheet"><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="//pull.cappuccicons.com/cpf.js"></script>
+  
+<script>
+(function($){
+$(document).ready(function() {
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+</head>
+  
+<body><div id="container"> 
+
+<div class="tab">
+<a target="_blank" href="https://xat.me/iSwiftie" class="tablink" title="Jaz"> <span class="cp cp-circle-o"></span></a> 
+<a target="_blank" href="https://xat.me/Unbesiegbar" class="tablink" title="Adri"> <span class="cp cp-circle-o"></span></a> 
+<a target="_blank" href="https://xat.me/Yumicita" class="tablink" title="Yumi"> <span class="cp cp-circle-o"></span></a> 
+<a target="_blank" href="https://xat.me/Vndres" class="tablink" title="Andrés">  <span class="cp cp-circle-o"></span></a>
+<a target="_blank" href="https://xat.me/ChiquinSivori" class="tablink" title="Moi">  <span class="cp cp-circle-o"></span></a>
+<a target="_blank" href="https://xat.me/barbiepobre" class="tablink" title="Vane">  <span class="cp cp-circle-o"></span></a>
+</div>
+  
+<div class="desc"> Faith I’m losing my <b>religion</b> every day <i>Time</i> hasn’t been <big>kind</big> to me. I <i>pray</i> when I look <b>inside</b> the mirror, and <b>see</b> someone<big> I love. </big> Oh, <b>someone</b> I <b>love...</b> </div><div class="title">Toxic</div><div class="popup" onclick="myFunction()"><span class="popuptext" id="myPopup"><div class="popupguts">
+ <i>bliss</i> comes only in the <B>moment</B> before I <big>fire</big></div></span></div><div class="sidebarimg"></div>
+</div> 
+  
+  <div id="credit" data="credit"><a target="_blank" href="https://xat.me/birdy" title="Mar"><span class="sf sf-beating-heart-o"></span></a></div>
+                           
+
+  <!--
+        MUSIC PLAYER #01 
+        ♬ glenthpvs.tumblr.com/player01
+--->
+<script src="//cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+<script src="//glenthemes.github.io/-music-/glenplayer01.js"></script>
+<link href="//glenthemes.github.io/-music-/glenplayer01.css" rel="stylesheet">
+
+<style element="glenplayer01">
+:root {
+    --MusicPlayer-Distance-From-Bottom:30px;
+    
+    --MusicPlayer-Frame-Thickness:12px;
+    --MusicPlayer-Frame-Color:#000;
+    --MusicPlayer-Frame-Transparency:40%;
+    
+    --MusicPlayer-Text-Background:#transparent;
+    --MusicPlayer-Text-Padding:12px;
+    --MusicPlayer-Text-Align:right;
+    
+    --MusicPlayer-Text-TOP-Size:10px;
+    --MusicPlayer-Text-TOP-Color:#192c79;
+    
+    --MusicPlayer-Text-BOTTOM-Size:10px;
+    --MusicPlayer-Text-BOTTOM-Color:#192c79;
+    
+    --MusicPlayer-Circle-Size:50px;
+    --MusicPlayer-Circle-Background:#000;
+    
+    --MusicPlayer-PlayButton-Size:10px;
+    --MusicPlayer-PlayButton-Color:#192c79;
+    
+    --MusicPlayer-Bar-Thickness:2px;
+    --MusicPlayer-Bar-Spacing:2px;
+    --MusicPlayer-Bar-Color:#192c79;
+    
+    --MusicPlayer-SlideIn-Speed:0.69s;
+    --MusicPlayer-SlideOut-Speed:1s;
+}
+</style>
+
+<div glenplayer01>
+    <div top-text>Sleep Token</div>
+    <div bottom-text>The Summoning</div>
+    
+    <audio id="music-id" src="https://www.dropbox.com/scl/fi/xc1isdnvlfs3s0d45dr8o/Sleep-Token-The-Summoning.mp3?rlkey=gladmcne97okp1gam5783tyok&dl=1" volume="100%"></audio>
+</div>
+<!--- end music player --->
+    
+</body><!-- tscript  --><script>
+
+function openPage(pageName, elmnt, color) {
+  var i, tabcontent, tablink;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";}
+
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  document.getElementById(pageName).style.display = "block";
+  
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+
+</script><script>
+ 
+function myFunction() {
+  var desc = document.getElementById("myDescription");
+  desc.classList.toggle("show");
+ 
+ 
+}
+</script><script>
+$(document).ready(function(){
+  $(".tablink").click(function(){
+    $(".posts").hide();
+    $(".permalink").hide();
+    $(".tags").hide();
+    $("#pagination").hide();
+  });
+  $(".tabsclose").click(function(){
+    $(".posts").show();
+    $(".permalink").show();
+    $(".tags").show();
+    $("#pagination").show();
+   
+  });
+});
+</script><!-- end tabs filter script --><script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script></html>
+<!-- partial -->
+  
+</body>
+</html>
